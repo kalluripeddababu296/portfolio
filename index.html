@@ -6,24 +6,34 @@
 <title>Kalluri Pedda Babu — AI Engineer & Full Stack Developer</title>
 <meta name="description" content="Portfolio of Kalluri Pedda Babu — AI/ML Engineer and Full Stack Developer building intelligent applications.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<div class="bg-blobs" aria-hidden="true">
+  <span class="blob blob-1"></span>
+  <span class="blob blob-2"></span>
+  <span class="blob blob-3"></span>
+  <span class="blob blob-4"></span>
+  <span class="blob blob-5"></span>
+</div>
 <div class="grid-overlay" aria-hidden="true"></div>
 
 <!-- ===== NAV ===== -->
-<header class="nav" id="nav">
-  <div class="nav-inner">
-    <a href="#top" class="logo">KP<span>·</span>B</a>
+<header class="nav-wrap">
+  <div class="nav glass" id="nav">
+    <a href="#top" class="logo">KPB</a>
     <nav class="nav-links" id="navLinks">
       <a href="#about">About</a>
       <a href="#skills">Skills</a>
       <a href="#projects">Projects</a>
       <a href="#contact">Contact</a>
     </nav>
-    <a href="#contact" class="btn btn-ghost nav-cta">Let's talk</a>
+    <div class="nav-right">
+      <a href="#contact" class="btn btn-glass nav-cta">Let's talk</a>
+      <a href="Kalluri_Pedda_Babu_Resume.pdf" download class="btn btn-gradient nav-cta">Resume ↓</a>
+    </div>
     <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
@@ -34,7 +44,7 @@
 <section class="hero" id="top">
   <div class="hero-inner">
     <div class="hero-text">
-      <p class="eyebrow"><span class="dot"></span> Available for freelance work · Chennai, India</p>
+      <p class="eyebrow glass-pill"><span class="dot"></span> Open To Work</p>
       <h1 class="hero-title">
         Kalluri<br>
         <span class="grad-text">Pedda Babu</span>
@@ -48,8 +58,8 @@
         with real freelance projects shipped to real clients.
       </p>
       <div class="hero-actions">
-        <a href="#projects" class="btn btn-primary">View Projects <span class="arrow">→</span></a>
-        <a href="Kalluri_Pedda_Babu_Resume.pdf" download class="btn btn-outline">Download Resume <span class="icon-down">↓</span></a>
+        <a href="#projects" class="btn btn-gradient">View Projects <span class="arrow">→</span></a>
+        <a href="Kalluri_Pedda_Babu_Resume.pdf" download class="btn btn-glass">Download Resume <span class="icon-down">↓</span></a>
       </div>
       <div class="hero-socials">
         <a href="https://www.linkedin.com/in/kalluri-pedda-babu-3b21453a9/" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
@@ -59,14 +69,11 @@
     </div>
 
     <div class="hero-visual">
-      <div class="photo-frame">
+      <div class="photo-frame glass">
         <img src="assets/profile.jpeg" alt="Kalluri Pedda Babu">
-        <svg class="frame-ring" viewBox="0 0 300 300" aria-hidden="true">
-          <circle cx="150" cy="150" r="145" />
-        </svg>
       </div>
 
-      <div class="float-card card-stack" id="cardStack">
+      <div class="float-card glass card-stack" id="cardStack">
         <p class="fc-label">Tech Stack</p>
         <div class="fc-bars">
           <div class="fc-bar-row"><span>Python</span><i style="--w:88%"></i></div>
@@ -75,23 +82,23 @@
         </div>
       </div>
 
-      <div class="float-card card-exp">
+      <div class="float-card glass card-exp">
         <span class="fc-num">2028</span>
         <span class="fc-sub">Expected Grad</span>
       </div>
 
-      <div class="float-card card-cgpa">
-        <span class="fc-num">8.2</span>
+      <div class="float-card glass card-cgpa">
+        <span class="fc-num">8.95</span>
         <span class="fc-sub">CGPA / 10</span>
       </div>
     </div>
   </div>
 
   <div class="stats-bar">
-    <div class="stat"><span class="stat-num">3+</span><span class="stat-label">Projects Shipped</span></div>
-    <div class="stat"><span class="stat-num">2025</span><span class="stat-label">Freelancing Since</span></div>
-    <div class="stat"><span class="stat-num">4</span><span class="stat-label">Languages Spoken</span></div>
-    <div class="stat"><span class="stat-num">2</span><span class="stat-label">Certifications</span></div>
+    <div class="stat glass"><span class="stat-num">6+</span><span class="stat-label">Projects Shipped</span></div>
+    <div class="stat glass"><span class="stat-num">2025</span><span class="stat-label">Freelancing Since</span></div>
+    <div class="stat glass"><span class="stat-num">4</span><span class="stat-label">Languages Spoken</span></div>
+    <div class="stat glass"><span class="stat-num">2</span><span class="stat-label">Certifications</span></div>
   </div>
 </section>
 
@@ -105,7 +112,7 @@
     <div class="about-body">
       <p>
         I'm a Computer Science (AI & Machine Learning) student at Vel Tech University,
-        expected to graduate in 2028 with a current CGPA of 8.2/10. Since 2025 I've worked
+        expected to graduate in 2028 with a current CGPA of 8.95/10. Since 2025 I've worked
         as a freelance developer, delivering full stack and AI/ML-powered applications
         end-to-end — from model to deployment.
       </p>
@@ -116,7 +123,7 @@
       </p>
 
       <div class="about-cols">
-        <div class="about-col">
+        <div class="about-col glass">
           <h3>Education</h3>
           <div class="edu-item">
             <p class="edu-school">Vel Tech University</p>
@@ -124,14 +131,14 @@
             <p class="edu-meta">2024 – 2028 · CGPA 8.2/10</p>
           </div>
         </div>
-        <div class="about-col">
+        <div class="about-col glass">
           <h3>Certifications</h3>
           <ul class="cert-list">
             <li>AI &amp; Machine Learning Certification</li>
             <li>Full Stack Development Certification</li>
           </ul>
         </div>
-        <div class="about-col">
+        <div class="about-col glass">
           <h3>Languages</h3>
           <ul class="cert-list">
             <li>Telugu — Native</li>
@@ -153,33 +160,38 @@
     </div>
 
     <div class="skills-grid">
-      <div class="skill-card">
+      <div class="skill-card glass">
         <span class="skill-icon">◆</span>
         <h3>AI &amp; Machine Learning</h3>
         <p>Machine Learning, Deep Learning, Generative AI — from model design to integration.</p>
       </div>
-      <div class="skill-card">
+      <div class="skill-card glass">
+        <span class="skill-icon">✦</span>
+        <h3>AI Agents</h3>
+        <p>Designing and building autonomous AI agents for automation and interactive tasks.</p>
+      </div>
+      <div class="skill-card glass">
         <span class="skill-icon">▣</span>
         <h3>Full Stack Development</h3>
         <p>React, Node.js, and production-ready application architecture, front to back.</p>
       </div>
-      <div class="skill-card">
+      <div class="skill-card glass">
         <span class="skill-icon">◈</span>
         <h3>Cloud &amp; Databases</h3>
         <p>Cloud computing and SQL databases for secure, scalable deployment.</p>
       </div>
-      <div class="skill-card">
+      <div class="skill-card glass">
         <span class="skill-icon">▲</span>
         <h3>Client Delivery</h3>
         <p>Problem solving, client management and team collaboration on real freelance work.</p>
       </div>
     </div>
 
-    <div class="tech-strip">
+    <div class="tech-strip glass">
       <p class="fc-label">Languages &amp; Frameworks</p>
       <div class="tech-tags">
         <span>Python</span><span>JavaScript</span><span>Java</span><span>React</span>
-        <span>Node.js</span><span>TensorFlow</span><span>PyTorch</span><span>SQL</span>
+        <span>Node.js</span><span>TensorFlow</span><span>PyTorch</span><span>SQL</span><span>AI Agents</span>
       </div>
     </div>
   </div>
@@ -194,40 +206,52 @@
     </div>
 
     <div class="projects-grid">
-      <article class="project-card">
-        <div class="project-thumb thumb-ai">
-          <span>AI</span>
+      <a href="https://findsyofficial.netlify.app/" target="_blank" rel="noopener" class="project-card glass project-link">
+        <div class="project-logo logo-dark">
+          <span>FS</span>
+          <span class="status-pill status-live"><i class="tag-dot dot-ok"></i>Live</span>
         </div>
-        <div class="project-body">
-          <h3>AI-Based Application</h3>
-          <p>A machine learning model built for predictive analysis, integrated into a full
-             web-based application for end users.</p>
-          <div class="project-tags"><span>Python</span><span>Machine Learning</span><span>Web Integration</span></div>
+        <h3>Findsy</h3>
+        <p class="project-sub">Affiliate Platform</p>
+        <p class="project-desc">An affiliate platform connecting brands and promoters —
+           live and available to try right now.</p>
+        <div class="project-tags"><span>React</span><span>Node.js</span></div>
+      </a>
+
+      <article class="project-card glass">
+        <div class="project-logo logo-light">
+          <span>NX</span>
+          <span class="status-pill status-dev"><i class="tag-dot dot-warn"></i>Developing</span>
         </div>
+        <h3>NEXIFY</h3>
+        <p class="project-sub">E-Commerce Platform</p>
+        <p class="project-desc">A full-featured e-commerce website currently in active
+           development, from catalog to checkout.</p>
+        <div class="project-tags"><span>React</span><span>SQL</span></div>
       </article>
 
-      <article class="project-card">
-        <div class="project-thumb thumb-travel">
-          <span>WEB</span>
+      <article class="project-card glass">
+        <div class="project-logo logo-mint">
+          <span>WW</span>
+          <span class="status-pill status-soon"><i class="tag-dot dot-soon"></i>Coming Soon</span>
         </div>
-        <div class="project-body">
-          <h3>Full Stack Travel Platform</h3>
-          <p>A complete travel-related web application with authentication and SQL database
-             integration, built and shipped for a real client.</p>
-          <div class="project-tags"><span>React</span><span>Node.js</span><span>SQL</span></div>
-        </div>
+        <h3>WANDWEND</h3>
+        <p class="project-sub">Travel Planner Platform</p>
+        <p class="project-desc">A travel planning platform to design and organize trips
+           end-to-end — currently in the works.</p>
+        <div class="project-tags"><span>Full Stack</span><span>SQL</span></div>
       </article>
 
-      <article class="project-card">
-        <div class="project-thumb thumb-genai">
-          <span>GEN</span>
+      <article class="project-card glass">
+        <div class="project-logo logo-dark">
+          <span>NH</span>
+          <span class="status-pill status-dev"><i class="tag-dot dot-warn"></i>Developing</span>
         </div>
-        <div class="project-body">
-          <h3>Generative AI Project</h3>
-          <p>A Generative AI-based solution built for automated content generation,
-             taking a workflow from manual to hands-off.</p>
-          <div class="project-tags"><span>Generative AI</span><span>Python</span><span>Automation</span></div>
-        </div>
+        <h3>NEX-HIRE</h3>
+        <p class="project-sub">AI Interview Agent</p>
+        <p class="project-desc">An AI-powered interview agent that conducts and evaluates
+           interviews automatically — in active development.</p>
+        <div class="project-tags"><span>AI Agents</span><span>Generative AI</span></div>
       </article>
     </div>
   </div>
@@ -242,7 +266,7 @@
       <p class="contact-sub">Open to freelance projects and full stack / AI roles. Reach out
         and I'll get back to you.</p>
 
-      <div class="contact-details">
+      <div class="contact-details glass">
         <a href="mailto:peddababukalluri@gmail.com" class="contact-row">
           <span class="contact-label">Email</span>
           <span class="contact-value">peddababukalluri@gmail.com</span>
@@ -262,7 +286,7 @@
       </div>
     </div>
 
-    <form class="contact-form" id="contactForm">
+    <form class="contact-form glass" id="contactForm">
       <label>
         <span>Name</span>
         <input type="text" name="name" required placeholder="Your name">
@@ -275,13 +299,13 @@
         <span>Message</span>
         <textarea name="message" rows="4" required placeholder="Tell me about your project"></textarea>
       </label>
-      <button type="submit" class="btn btn-primary full-width">Send message <span class="arrow">→</span></button>
+      <button type="submit" class="btn btn-gradient full-width">Send message <span class="arrow">→</span></button>
       <p class="form-note" id="formNote"></p>
     </form>
   </div>
 </section>
 
-<footer class="footer">
+<footer class="footer glass">
   <p>© <span id="year"></span> Kalluri Pedda Babu. Built with HTML, CSS &amp; JavaScript.</p>
   <a href="#top" class="back-top">Back to top ↑</a>
 </footer>
