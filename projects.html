@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects — Kalluri Pedda Babu</title>
+<meta name="description" content="Featured projects by Kalluri Pedda Babu — Findsy, Nexify, Wandwend, Nex-Hire.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bg-blobs" aria-hidden="true">
+  <span class="blob blob-1"></span>
+  <span class="blob blob-2"></span>
+  <span class="blob blob-3"></span>
+  <span class="blob blob-4"></span>
+  <span class="blob blob-5"></span>
+</div>
+<div class="grid-overlay" aria-hidden="true"></div>
+
+<!-- ===== NAV ===== -->
+<header class="nav-wrap">
+  <div class="nav glass" id="nav">
+    <a href="index.html" class="logo">KPB</a>
+    <nav class="nav-links" id="navLinks">
+      <a href="about.html">About</a>
+      <a href="skills.html">Skills</a>
+      <a href="projects.html" class="active">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="nav-right">
+      <a href="contact.html" class="btn btn-glass nav-cta">Let's talk</a>
+      <a href="Kalluri_Pedda_Babu_Resume.pdf" download class="btn btn-gradient nav-cta">Resume ↓</a>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ===== PROJECTS ===== -->
+<section class="section" id="projects">
+  <div class="section-inner">
+    <div class="section-head">
+      <p class="eyebrow">Projects</p>
+      <h2>Featured work</h2>
+    </div>
+
+    <div class="projects-grid">
+      <a href="https://findsyofficial.netlify.app/" target="_blank" rel="noopener" class="project-card glass project-link">
+        <div class="project-logo">
+          <img src="assets/findsy.jpg" alt="Findsy logo">
+          <span class="status-pill status-live"><i class="tag-dot dot-ok"></i>Live</span>
+        </div>
+        <h3>Findsy</h3>
+        <p class="project-sub">Affiliate Platform</p>
+        <p class="project-desc">An affiliate platform connecting brands and promoters —
+           live and available to try right now.</p>
+        <div class="project-tags"><span>React</span><span>Node.js</span></div>
+      </a>
+
+      <article class="project-card glass">
+        <div class="project-logo">
+          <img src="assets/nexify.jpg" alt="Nexify logo">
+          <span class="status-pill status-dev"><i class="tag-dot dot-warn"></i>Developing</span>
+        </div>
+        <h3>NEXIFY</h3>
+        <p class="project-sub">E-Commerce Platform</p>
+        <p class="project-desc">A full-featured e-commerce website currently in active
+           development, from catalog to checkout.</p>
+        <div class="project-tags"><span>React</span><span>SQL</span></div>
+      </article>
+
+      <article class="project-card glass">
+        <div class="project-logo">
+          <img src="assets/wandwend.jpg" alt="Wandwend logo">
+          <span class="status-pill status-soon"><i class="tag-dot dot-soon"></i>Coming Soon</span>
+        </div>
+        <h3>WANDWEND</h3>
+        <p class="project-sub">Travel Planner Platform</p>
+        <p class="project-desc">A travel planning platform to design and organize trips
+           end-to-end — currently in the works.</p>
+        <div class="project-tags"><span>Full Stack</span><span>SQL</span></div>
+      </article>
+
+      <article class="project-card glass">
+        <div class="project-logo">
+          <img src="assets/nexhire.jpg" alt="Nex-Hire logo">
+          <span class="status-pill status-dev"><i class="tag-dot dot-warn"></i>Developing</span>
+        </div>
+        <h3>NEX-HIRE</h3>
+        <p class="project-sub">AI Interview Agent</p>
+        <p class="project-desc">An AI-powered interview agent that conducts and evaluates
+           interviews automatically — in active development.</p>
+        <div class="project-tags"><span>AI Agents</span><span>Generative AI</span></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<footer class="footer glass">
+  <p>© <span id="year"></span> Kalluri Pedda Babu. Built with HTML, CSS &amp; JavaScript.</p>
+  <a href="index.html" class="back-top">Back to top ↑</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
